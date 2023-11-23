@@ -1,0 +1,78 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "proteo chatgpt",
+      "intents": [
+  {
+    "name": "AMAZON.CancelIntent",
+    "samples": [
+      "cancela",
+      "detén",
+      "anula",
+      "aborta"
+    ]
+  },
+  {
+    "name": "AMAZON.HelpIntent",
+    "samples": [
+      "ayuda",
+      "necesito ayuda",
+      "¿puedes ayudarme?",
+      "explícame",
+      "asistencia"
+    ]
+  },
+  {
+    "name": "AMAZON.StopIntent",
+    "samples": [
+      "detente",
+      "para",
+      "finaliza",
+      "termina"
+    ]
+  },
+  {
+    "name": "AMAZON.NavigateHomeIntent",
+    "samples": [
+      "ir a la página principal",
+      "vuelve al inicio",
+      "navega a casa",
+      "regresa al principio"
+    ]
+        },
+{
+  "name": "AskChatGPTIntent",
+  "slots": [
+    {
+      "name": "question",
+      "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+  "cuéntame acerca de {question}",
+  "explícame {question}",
+  "háblame de {question}",
+  "proporcióname información sobre {question}",
+  "cuéntame lo que sabes sobre {question}",
+  "dime más acerca de {question}",
+  "pregúntame sobre {question}",
+  "necesito información sobre {question}",
+  "puedes responder a algo {question}",
+  "hazme saber acerca de {question}",
+  "quisiera saber {question}",
+  "cuéntame algo sobre {question}",
+  "déjame saber sobre {question}",
+  "necesito saber {question}",
+  "explícame qué es {question}",
+  "quiero aprender sobre {question}",
+  "déjame entender {question}",
+  "necesito una explicación sobre {question}"
+]
+
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
