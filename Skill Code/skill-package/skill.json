@@ -34,12 +34,12 @@
         "es-MX": {
           "description": "Sample Full Description",
           "examplePhrases": [
-            "Alexa abre chat gpt",
+            "Alexa abre hola mundo",
             "hola",
             "ayuda"
           ],
           "keywords": [],
-          "name": "ChatGPT Skill",
+          "name": "Chat gpt",
           "summary": "Sample Short Description"
         }
       },
